@@ -1,21 +1,24 @@
 body{
-    font-family: 'Montserrat' ;
+    font-family: 'Montserrat', sans-serif;
 }
 .container-fluid{
     padding: 3% 15%;
 }
 h1{
-    font-family: 'Montserrat-black', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
     font-size: 3.5rem;
     line-height: 1.5;
 }
 h2{
-    font-family: 'Montserrat-bold' ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
     font-size: 3rem;
     line-height: 1.5;
 }
 h3{
-    font-family: 'Montserrat-bold' ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
     font-size: 1.5rem;
 }
 /* navbar */
@@ -32,7 +35,8 @@ nav{
 }
 .nav-link{
     font-size: 1.2rem;
-    font-family: 'Montserrat-light' 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: light;
 }
 /* title */
 #title{
@@ -111,7 +115,6 @@ nav{
 #cta h3{
     margin-bottom: 5%;
     color: #fff;
-    font-family: 'Montserrat-black';
     font-size: 36px;
 }
 #cta .btn{
