@@ -1,24 +1,23 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 .container-fluid{
     padding: 3% 15%;
 }
-h1{
+h1, h2, h3{
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
+    font-weight: bold; 
+}
+h1{
     font-size: 3.5rem;
     line-height: 1.5;
 }
 h2{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
     font-size: 3rem;
     line-height: 1.5;
 }
 h3{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
     font-size: 1.5rem;
 }
 /* navbar */
@@ -42,6 +41,7 @@ nav{
 #title{
     background: #ff4c68;
     padding-bottom: 10%;
+    text-align: left;
 }
 .download-btn{
     margin: 5% 3% 0 0;
@@ -56,7 +56,6 @@ nav{
 }
 /* feature */
 #features{
-    text-align: center;
     padding: 15% 0;
     background: #fff;
     position: relative;
@@ -76,7 +75,6 @@ nav{
 /* testimonials */
 
 #testimonials{
-    text-align: center;
     background: #ef8172;
     color: #fff;
 }
@@ -91,7 +89,6 @@ nav{
 /* press */
 #press{
     background:#ef8172 ;
-    text-align: center;
     padding-bottom: 3%;
 }
 .press-logo{
@@ -101,7 +98,6 @@ nav{
 /* pricing */
 #pricing{
     margin: 10% 15%;
-    text-align: center;
 }
 .pricing-column{
     padding: 3% 2%;
@@ -110,7 +106,6 @@ nav{
 #cta{
     background: #ff4c68;
     padding:20% 5%;
-    text-align: center;
 }
 #cta h3{
     margin-bottom: 5%;
@@ -123,7 +118,6 @@ nav{
 /* footer */
 #footer{
     padding: 10% 0 5% 0;
-    text-align: center;
     background: #fff;
 }
 .contact i{
