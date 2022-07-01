@@ -99,6 +99,9 @@ nav{
 #pricing{
     margin: 10% 15%;
 }
+#pricing h3{
+    margin: 0;
+}
 .pricing-column{
     padding: 3% 2%;
 }
@@ -134,6 +137,9 @@ nav{
     }
     h3{
         font-size: 1rem;
+    }
+    P{
+        line-height: 0.5;
     }
     .rotate{
         position: static;
